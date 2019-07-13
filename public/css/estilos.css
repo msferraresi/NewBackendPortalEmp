@@ -1,0 +1,85 @@
+* {font-family: 'Roboto', sans-serif;}
+a:hover {text-decoration:none;}
+a, button, h3 {transition: all 200ms  ease-in-out;}
+html {scroll-behavior: smooth;}
+
+.text-inner h2 {
+    display:block;
+    clear:both;
+    width:100%;
+    font-weight:700;
+    font-size:1.6em;
+    color:#000;
+    line-height:2em;
+}
+
+.text-inner h3 {
+    display:block;
+    width:100%;
+    clear:both;
+    font-weight:700;
+    font-size:1.4em;
+    color:#000;
+    line-height:2em;
+}
+
+.text-inner h4 {
+    display:block;
+    width:100%;
+    clear:both;
+    font-weight:700;
+    font-size:1.2em;
+    color:#000;
+    line-height:2em;
+}
+
+.text-inner a {
+  font-weight:300;
+  color:#3C91D4;
+}
+
+.text-inner a:hover {
+    color:#767676;
+}
+
+.text-inner p {
+    font-weight:100;
+    font-size:1em;
+    line-height:2em;
+    color:#767676;
+}
+
+.text-inner strong {
+  font-weight:700;
+}
+
+.sidebar-mini:not(.sidebar-mini-expand-feature).sidebar-collapse .sidebar-menu>li:hover>a>span:not(.pull-right), .sidebar-mini:not(.sidebar-mini-expand-feature).sidebar-collapse .sidebar-menu>li:hover>.treeview-menu{
+    width: 200px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.panel-heading{
+    padding: 2px 4px;
+}
+
+.rotate{
+    -moz-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.rotate.down{
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.navbar-nav>.user-menu>.dropdown-menu>li.user-header{
+    padding: inherit;
+}
+
+.btn{
+    font-family: 'Roboto', sans-serif;
+}
